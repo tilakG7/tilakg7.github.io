@@ -63,6 +63,7 @@ body{
 	background: #fff;
 	box-shadow: 8px 8px 14px 38px rgba(0, 0, 0, 0.002);
 	transition: all 0.5s;
+	overflow: hidden;
 	
 	display: flex;
 	display: -ms-flexbox;
