@@ -82,3 +82,11 @@ blockquote{
 	margin-top: 2vw;
 	margin-bottom: 2vw;
 }
+
+.image-div{
+	height: 400px;
+	background-size: contain; /*width and height*/
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 10px 0;
+}
