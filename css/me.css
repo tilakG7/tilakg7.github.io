@@ -1,0 +1,56 @@
+*{
+	font-family: "Poppins";
+	font-weight: 300;
+}
+
+body{
+	margin: 0px;
+}
+
+
+#title-bar{
+	background-color: black;
+	height: 50px;
+	padding	: 0;	
+	margin: 0;
+	vertical-align: middle;
+
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	color: white;
+}
+
+#article-title{
+	font-size: 2.5em;
+	text-align: center;
+	padding: 40px 0px;
+	color: #800080;
+	/* background-color: rgb(244,248,251);	 */
+}
+
+#outer{
+	/* background-color: rgb(244,248,251);	 */
+	margin: 0;
+	padding: 0;
+}
+
+#about-me-card{
+	margin: auto;
+	max-width: 1040px;
+}
+
+#about-me-card-img{
+	float: left;
+	width: 250px;
+	background-image: url(../images/me.JPG);
+	background-position: center;
+	background-size: cover;
+	margin: 0px 10px;
+	height: 350px;
+
+}
+
+#about-me-card-desc{
+	display: inline;
+}
