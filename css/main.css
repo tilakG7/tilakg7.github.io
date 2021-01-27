@@ -53,6 +53,14 @@ body{
 	color: white;
 }
 
+button{
+	background-color: rgb(53, 54, 58);
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 10px 5px 10px;
+}
+
 #feed-outer{
 	background-color: rgb(244,248,251);	
 	margin: 0;
