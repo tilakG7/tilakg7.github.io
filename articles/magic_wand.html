@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Magic Wand</title>
+		<link rel = "stylesheet" href = "../css/smart_led_light.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400">
+	</head>
+	<body>
+
+		<a href="../index.html">
+			<div id="title-bar">
+				Tilak Gupta
+			</div>
+		</a>
+
+		<div id="article-title">
+			Magic Wand
+		</div>
+
+		<div id="article-image" style="background-image: url(../images/toronto_light.jpg)">
+		</div>
+		
+		<div id="outer">
+			<div id="post">
+				<div id="post-inner">
+					<p>This is a project I am currently working on. I've always found it 
+						peculiar that more colorful lighting is not ubiquitous in our lives. 
+						Lighting in our homes and workspaces are mostly 
+						in the range of cool white to warm white.
+					</p>
+					<p> My goal with this project is to engineer a LED smart light that is bright,
+						offers color control and is relatively cheap. Smart lights in the market are 
+						normally lacking in at least one of these areas. I'm also gaining more embedded prototyping
+						experience with this project.
+					</p>
+					<p>The major deisgn areas of this project are:</p>
+					<ul>
+						<li>Choosing LEDs</li>
+						<ul>
+							<li>Brightness, power consumption, package thermal resistance are among the factors</li>
+						</ul>
+						<li>LED Driving Circuitry</li>
+						<ul>
+							<li>Designing the hardware that will control the current through the LEDs</li>
+						</ul>
+						<li>LED Thermal Management</li>
+						<ul>
+							<li>LEDs are about 25% efficient. That means a lot of heat needs to be removed.</li>
+						</ul>
+						<li>Control Circuitry</li>
+						<ul>
+							<li>WiFi control and physical button/touch.</li>
+						</ul>
+						<li>Control Firmware</li>
+						<li>Enclosure Design</li>
+						<li>Procurement and Contruction</li>
+					</ul>
+
+
+					<p> I am currently prototyping the control circuitry and contorl firmware, and 
+						have the enclosure design to do.
+					</p>
+
+					<p> Initially, I was thinking of cooling the LEDs with a small fan in the lamp head.</p>
+					
+					<a href="../images/light_revision_1_design.jpg">
+						<div class="image-div" style="background-image: url(../images/light_revision_1_design.jpg)"></div>
+					</a>
+
+					<p> However, a copper heat pipe is much simpler and more effective at removing heat from the LEDs.</p>
+
+					<a href="../images/light_revision_2.jpeg">
+					<div class="image-div" style="background-image: url(../images/light_revision_2.jpeg)"></div>
+					</a>
+
+					<p> Here is an image of thes schematic and PCB layout for the current control board.</p>
+					
+					<a href="../images/led_drive_board.png">
+					<div class="image-div" style="background-image: url(../images/led_drive_board.png)"></div>
+					</a>
+
+					<a href="../images/schematic_led_drive_board.png">
+					<div class="image-div" style="background-image: url(../images/schematic_led_drive_board.png)"></div>
+					</a>
+					
+				</div>
+			</div>	
+		</div>
+
+	</body>
+	
+</html>
