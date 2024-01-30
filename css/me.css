@@ -42,12 +42,12 @@ body{
 
 #about-me-card-img{
 	float: left;
-	width: 250px;
-	background-image: url(../images/me.JPG);
+	width: 500px;
+	background-image: url(../images/tilak.JPG);
 	background-position: center;
 	background-size: cover;
 	margin: 0px 10px;
-	height: 350px;
+	height: 400px;
 
 }
 
